@@ -9,4 +9,5 @@ jobs:
         with:
           python-version: '3.x'    
        - name: Setup upterm session
+       - uses: actions/checkout@v2
          uses: lhotari/action-upterm@v1
